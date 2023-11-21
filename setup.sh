@@ -6,8 +6,8 @@ sudo apt-get update
 # Install Python 3 and pip
 sudo apt-get install -y python3 python3-pip
 
-# Install Jupyter and IPython
-pip3 install jupyter ipython
+# Install Jupyter, IPython, and IPython Kernel
+pip3 install jupyter ipython ipykernel
 
 # Download Miniconda installer script
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
