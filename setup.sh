@@ -21,9 +21,9 @@ rm miniconda.sh
 # Activate conda environment
 source ~/miniconda/bin/activate
 
-# Add the conda-forge channel
-conda config --add channels conda-forge
-
-conda install -y scikit-learn ipykernel pandas matplotlib seaborn tensorflow keras
 
 echo "Installation complete. Please restart your shell for the changes to take effect."
+
+echo "Run after restart:"
+
+echo "conda install -y scikit-learn ipykernel pandas matplotlib seaborn tensorflow keras"
